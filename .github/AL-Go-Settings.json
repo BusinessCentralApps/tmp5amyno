@@ -1,6 +1,10 @@
 {
   "RepoName": "Privé",
-  "type": "PTE",
   "templateUrl": "https://github.com/businesscentralapps/tmpmhCk42-PTE@main",
-  "MicrosoftTelemetryConnectionString": ""
+  "type": "PTE",
+  "MicrosoftTelemetryConnectionString": "",
+  "runs-on": "ubuntu-latest",
+  "doNotPublishApps": true,
+  "gitHubRunner": "ubuntu-latest",
+  "UseCompilerFolder": true
 }
